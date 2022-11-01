@@ -1,0 +1,102 @@
+/* header */
+
+header {
+    background-color: lightpink;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.myheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+nav {
+    width: 500px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+li {
+    font-size: 24px;
+}
+
+.fa-bars {
+    font-size: 36px;
+    display: none;
+}
+
+@media (max-width: 1170px) {
+    .myheader {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    nav {
+        display: none;
+    }
+    .fa-bars {
+        display: inline-block;
+    }
+}
+
+/* section 1 */
+
+.mybox {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    .mybox {
+        justify-content: space-evenly;
+    }
+    img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 825px) {
+    img {
+        width: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        width: 300px;
+    }
+}
+
+/* section 2 */
+.mshobeli {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
